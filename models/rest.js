@@ -16,7 +16,7 @@ const ResturentSchema=new mongoose.Schema({
         text:String,
         username:{
             type:String,
-            default:"annoynmous"
+            default:"anonymous"
         }
        }
     ]

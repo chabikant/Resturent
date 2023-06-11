@@ -22,7 +22,7 @@ router.get('/:id',async(req,res)=>{
 router.post('/:id/comment/new',async(req,res)=>{
     const {id}=req.params;
     const restaurant=await restModel.findById(id);
-    const uname="annonumous"
+    const uname="anonymous"
    
     
     const cmt={

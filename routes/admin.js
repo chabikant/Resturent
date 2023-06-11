@@ -30,7 +30,7 @@ router.delete("/delete/:id",async(req,res)=>{
     const {id}=req.params;
     console.log(req.params)
     await restModel.deleteOne({_id: id});
-    res.send("restaurant Deleted")
+    res.send("Restaurant Deleted")
 })
 
 router.patch('/update/:id',async(req,res)=>{

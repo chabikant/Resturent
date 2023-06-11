@@ -3,7 +3,7 @@ const mongoose=require("mongoose");
 const   AdminSchema=new mongoose.Schema({
     username:{
         type:String,
-        default:"chabi",
+        default:"Chabi",
     },
     password:{
         type:String,

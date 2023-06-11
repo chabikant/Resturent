@@ -1,7 +1,7 @@
 const express= require("express");
 const app= express();
 const mongoose=require("mongoose");
-const path=require("path");
+
 
 const adminRoutes=require('./routes/admin');
 const restRoutes=require('./routes/rest');
